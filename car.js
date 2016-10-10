@@ -1,4 +1,4 @@
-var Carspecs = function (color, speed, convertible) {
+var Carspecs = function(color, speed, convertible) {
   this.color = color;
   this.speed = speed;
   this.convertible = convertible;
