@@ -2,14 +2,10 @@ var carType = require('./car')
 
 var yellowCar = new carType('yellow', 0)
 
-<<<<<<< HEAD
-console.log('yellow car speed is ' + yellowCar.speed
-)
+console.log('yellowCar speed is ' + yellowCar.speed)
 
-||||||| merged common ancestors
-console.log('yellow car speed is ' + yellowCar.speed)
-=======
-console.log('yellow car speed is ' + yellowCar.speed)
+console.log('yellowCar speed after acceleration is ' + yellowCar.accelerate(40));
 
-// Chris is here! TEST TEST TEST!
->>>>>>> fbfaaba1fddc8f7471d767f82d384d1a6c750ac4
+console.log('yellowCar speed after deceleration is ' + yellowCar.decelerate(20));
+
+console.log('When yellowCar stops, the speed is ' + yellowCar.stop);

@@ -1,6 +1,6 @@
 var Carspecs = function(color, speed, convertible) {
   this.color = color;
-  this.speed = speed;
+  this.speed = 0;
   this.convertible = convertible;
   this.accelerate = function(rate) {
     return this.speed += rate
@@ -8,6 +8,7 @@ var Carspecs = function(color, speed, convertible) {
   this.decelerate = function(rate) {
     return this.speed -= rate
   }
+  this.stop = 0;
 }
 
 // var honda = new Carspecs('Honda', 'red', 0)
