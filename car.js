@@ -18,3 +18,18 @@ var Carspecs = function(color, speed, convertible) {
 //             ', my decelerated speed is ' + honda.decelerate(20) )
 
 module.exports = Carspecs
+
+
+// Carspecs.prototype.accelerate = function (rate) {
+// this.speed += rate
+// }
+
+// Carspecs.prototype.setColor = function (newColor) {
+// this.color = newColor
+// }
+
+// Carspecs.prototype.decelerate = function(rate) {
+//   this.speed -= rate
+// }
+
+Carspecs.prototype.stop = function
